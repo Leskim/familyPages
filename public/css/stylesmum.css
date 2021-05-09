@@ -23,6 +23,11 @@ h2{
   font-weight: normal;
 }
 
+h3{
+  line-height: 1.5;
+  font-style: italic;
+}
+
 p{
   font-family: 'Laila', sans-serif;
   font-size: 1.5rem;
@@ -103,6 +108,8 @@ hr{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2.2;
 }
 .footer-link:hover{
   color: #eaf6f6;

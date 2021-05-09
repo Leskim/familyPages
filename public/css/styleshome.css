@@ -1,24 +1,30 @@
 body{
-  /* background-color: #2b2e4a; */
+  /* background-color: #155263; */
 
   /* font-size: 2.5rem; */
   font-weight: bolder;
   text-align: center;
-  background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.0)), url("../back2.jpg");
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),url("../back2.jpg") ;
 }
 
 h3{
   font-family: 'Pacifico', cursive;
-  font-weight: 2.5rem;
+  /* font-weight: 2.5rem; */
+  /* color: #ff9a3c; */
   line-height: 2.5;
-  /* color: #08d9d6; */
+  color: #d9faff;
 
 }
 
 h2{
   font-family: 'Shadows Into Light', cursive;
-  font-weight: 2.5rem;
+  font-weight: bolder;
   line-height: 2.5;
+  /* color: #ff9a3c; */
+  color: #d9faff;
 }
 
 .us{
@@ -26,5 +32,17 @@ h2{
   font-weight: bolder;
   font-size: 4.5rem;
   font-style: italic;
-  color: #903749;
+  /* color: #a7ff83; */
+  /* color: #b61aae; */
+  color: #00bbf0;
+}
+
+.family{
+  /* font-size: 2rem; */
+  margin-bottom: 100px;
+  font-weight: bolder;
+}
+
+a{
+  font-size: 1.2rem;
 }
