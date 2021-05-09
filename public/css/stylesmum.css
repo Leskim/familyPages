@@ -1,0 +1,109 @@
+body{
+  /* color: #b8b0b0; */
+  margin: 0;
+  text-align: center;
+  font-family: 'Laila', sans-serif;
+}
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  /* font-family: 'Girassol', cursive; */
+  /* margin: 25px auto 0 25px; */
+  font-size: 5.625rem;
+  color: #6639a6;
+
+}
+
+h2{
+  /* font-family: 'Girassol', cursive; */
+  line-height: 1.8;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.2rem;
+  color: #086972;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Laila', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+hr{
+  border-width: 5px;
+  width: 5%;
+  color: #ff6f3c;
+
+}
+
+.top-container {
+  background-color: #bad7df;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 24px;
+}
+
+.kids-row{
+  width: 50%;
+  display: inline-block;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.middle-container{
+  margin-top: 50px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin-top: 50px;
+  padding: 20px;
+
+}
+
+.kid-row{
+  width: 50%;
+  display: inline-block;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.mumImg{
+  /* width: 120px; */
+
+}
+
+.kim{
+  width: 250px;
+  height: 450px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+
+}
+
+.cedy{
+  width: 250px;
+  height: 500px;
+  margin-left: 30px;
+  float: right;
+}
+
+.chichi{
+  width: 250px;
+  height: 350px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.footer-link{
+  margin: 30px 20px;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #eaf6f6;
+}

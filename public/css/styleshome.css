@@ -1,0 +1,30 @@
+body{
+  /* background-color: #2b2e4a; */
+
+  /* font-size: 2.5rem; */
+  font-weight: bolder;
+  text-align: center;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.0)), url("../back2.jpg");
+}
+
+h3{
+  font-family: 'Pacifico', cursive;
+  font-weight: 2.5rem;
+  line-height: 2.5;
+  /* color: #08d9d6; */
+
+}
+
+h2{
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 2.5rem;
+  line-height: 2.5;
+}
+
+.us{
+  font-family: 'Girassol', cursive;
+  font-weight: bolder;
+  font-size: 4.5rem;
+  font-style: italic;
+  color: #903749;
+}
