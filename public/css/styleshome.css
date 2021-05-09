@@ -46,3 +46,18 @@ h2{
 a{
   font-size: 1.2rem;
 }
+
+@media (max-width: 994px){
+  .us{
+    font-size: 7.625rem;
+  }
+  h3{
+    font-size: 5.625rem;
+  }
+  h2{
+    font-size: 5.625rem;
+  }
+  .btn{
+    font-size: 3rem;
+  }
+}
