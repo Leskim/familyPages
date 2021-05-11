@@ -50,4 +50,17 @@ h1{
 
 .family a{
   font-size: 20px;
+  /* font-size: 18px; */
+  text-decoration: none;
+  color: #ff7e67;
+  border: #926239 1.7px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+.family a:hover{
+  background: #926239;
+  color: #fff;
 }

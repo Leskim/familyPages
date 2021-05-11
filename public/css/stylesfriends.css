@@ -93,10 +93,10 @@ footer{
 
 @media(max-height:700px){
   #friends-all{
-    height: 200vh;
+    height: 240vh;
   }
   .friend-1{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 70px;
   }
 }
