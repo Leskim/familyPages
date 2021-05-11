@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#friends-all{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/backfriends.jpg");
+  background-size: cover;
+  height:150vh;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+
+}
+
+.friend-heading h1{
+  font-family: 'Courgette', cursive;
+  font-size: 100px;
+  color:#00adb5;
+  font-weight: bold;
+}
+
+.friend-heading p{
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+}
+
+.friends{
+  font-family: 'Playfair Display', serif;
+  color: #f7fbfc;
+  font-size: 20px;
+}
+
+.friends h2{
+  font-family: 'Yatra One', cursive;
+  font-size: 40px;
+  line-height: 1.8;
+  font-weight: bold;
+  color: #17b978;
+}
+
+.friends img{
+  float: left;
+  width:150px;
+  height:150px;
+  border-radius: 20px;
+}
+
+.friend-1{
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.friends p{
+  /* padding-left: 15px; */
+  padding-bottom: 15px;
+}
+
+.friends .btn{
+  font-size: 13px;
+  text-decoration: none;
+  color: #bae8e8;
+  border: #bae8e8 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.friends .btn:hover{
+  background: #2a363b;
+  color: #fff;
+}
+
+footer{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #beebe9;
+  margin-bottom: 0;
+}
+
+@media(max-height:30vh){
+  #friends-all{
+    height: 100vh;
+  }
+}

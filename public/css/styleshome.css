@@ -1,63 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
-  /* background-color: #155263; */
-
-  /* font-size: 2.5rem; */
-  font-weight: bolder;
+  margin: 0;
   text-align: center;
   background-image: linear-gradient(
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
-        ),url("../back2.jpg") ;
-}
-
-h3{
-  font-family: 'Pacifico', cursive;
-  /* font-weight: 2.5rem; */
-  /* color: #ff9a3c; */
-  line-height: 2.5;
-  color: #d9faff;
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),url("../images/back2.jpg") ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 
 }
 
-h2{
-  font-family: 'Shadows Into Light', cursive;
-  font-weight: bolder;
-  line-height: 2.5;
-  /* color: #ff9a3c; */
-  color: #d9faff;
-}
-
-.us{
+h1{
   font-family: 'Girassol', cursive;
   font-weight: bolder;
-  font-size: 4.5rem;
+  font-size: 70px;
   font-style: italic;
-  /* color: #a7ff83; */
-  /* color: #b61aae; */
   color: #00bbf0;
 }
 
 .family{
-  /* font-size: 2rem; */
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-weight: bolder;
 }
+.family h3{
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  line-height: 2.5;
+  color: #d9faff;
 
-a{
-  font-size: 1.2rem;
 }
 
-@media (max-width: 994px){
-  .us{
-    font-size: 7.625rem;
-  }
-  h3{
-    font-size: 5.625rem;
-  }
-  h2{
-    font-size: 5.625rem;
-  }
-  .btn{
-    font-size: 3rem;
-  }
+.family h2{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px
+  font-weight: bolder;
+  line-height: 2.5;
+  color: #d9faff;
+}
+
+
+
+.family a{
+  font-size: 20px;
 }

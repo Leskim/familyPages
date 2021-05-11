@@ -1,20 +1,19 @@
-body{
+body {
   /* color: #b8b0b0; */
   margin: 0;
   text-align: center;
   font-family: 'Laila', sans-serif;
 }
 
-h1{
+h1 {
   font-family: 'Shadows Into Light', cursive;
   /* font-family: 'Girassol', cursive; */
   /* margin: 25px auto 0 25px; */
   font-size: 5.625rem;
   color: #6639a6;
-
 }
 
-h2{
+h2 {
   /* font-family: 'Girassol', cursive; */
   line-height: 1.8;
   font-family: 'Dancing Script', cursive;
@@ -23,22 +22,21 @@ h2{
   font-weight: normal;
 }
 
-h3{
+h3 {
   line-height: 1.5;
   font-style: italic;
 }
 
-p{
+p {
   font-family: 'Laila', sans-serif;
   font-size: 1.5rem;
   line-height: 1.2;
 }
 
-hr{
+hr {
   border-width: 5px;
   width: 5%;
   color: #ff6f3c;
-
 }
 
 .top-container {
@@ -48,14 +46,14 @@ hr{
   padding-bottom: 70px;
 }
 
-.kids-row{
+.kids-row {
   width: 50%;
   display: inline-block;
   margin: 100px auto 100px auto;
   text-align: left;
 }
 
-.middle-container{
+.middle-container {
   margin-top: 50px;
 }
 
@@ -63,51 +61,47 @@ hr{
   background-color: #66bfbf;
   margin-top: 50px;
   padding: 20px;
-
 }
 
-.kid-row{
+.kid-row {
   width: 50%;
   display: inline-block;
   margin: 100px auto 100px auto;
   text-align: left;
 }
 
-.mumImg{
+.mumImg {
   /* width: 120px; */
-
 }
 
-.kim{
+.kim {
   width: 250px;
   height: 450px;
   float: left;
   margin-right: 30px;
   margin-left: 30px;
-
 }
 
-.cedy{
+.cedy {
   width: 250px;
   height: 500px;
   margin-left: 30px;
   float: right;
 }
 
-.chichi{
+.chichi {
   width: 250px;
   height: 350px;
   float: left;
   margin-left: 30px;
   margin-right: 30px;
-
 }
 
-.btn{
+.btn {
   font-size: 1.5rem;
 }
 
-.footer-link{
+.footer-link {
   margin: 30px 20px;
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -115,22 +109,26 @@ hr{
   font-size: 1.5rem;
   line-height: 2.2;
 }
-.footer-link:hover{
+
+.footer-link:hover {
   color: #eaf6f6;
 }
 
-@media (max-width: 854px){
-  h3{
+@media (max-width: 854px) {
+  h3 {
     font-weight: bolder;
     font-size: 2.5rem;
   }
-  p{
+
+  p {
     font-size: 1.8rem;
   }
-  h1{
+
+  h1 {
     font-size: 7.245rem;
   }
-  body{
+
+  body {
     font-size: 1.5rem;
   }
 }
