@@ -101,6 +101,19 @@ hr {
   font-size: 1.5rem;
 }
 
+.skills {
+  transition: all 200ms ease-out;
+}
+
+.skills a {
+  text-decoration: none;
+}
+
+.skills:hover {
+  border-radius: 5px #eaf6f6;
+  opacity: .7;
+}
+
 .footer-link {
   margin: 30px 20px;
   color: #11999E;
@@ -108,6 +121,7 @@ hr {
   text-decoration: none;
   font-size: 1.5rem;
   line-height: 2.2;
+  transition: all 200ms ease-in;
 }
 
 .footer-link:hover {
