@@ -1,66 +1,115 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-body{
-  margin: 0;
+
+body {
+  font-family: 'Caveat', cursive;
+  font-size: 1.2rem;
   text-align: center;
-  background-image: linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ),url("../images/back2.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../images/back2.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-
 }
 
-h1{
+/* h1 {
   font-family: 'Girassol', cursive;
   font-weight: bolder;
   font-size: 70px;
   font-style: italic;
   color: #00bbf0;
-}
-
-.family{
+} */
+/* .family{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: bolder;
+} */
+.container {
+  width: 90%;
+  margin: 2rem auto;
 }
-.family h3{
+
+/* .family h3 {
   font-family: 'Pacifico', cursive;
   font-size: 40px;
   line-height: 2.5;
   color: #d9faff;
-
 }
 
-.family h2{
+.family h2 {
   font-family: 'Shadows Into Light', cursive;
-  font-size: 50px
-  font-weight: bolder;
+  font-size: 50px font-weight: bolder;
   line-height: 2.5;
   color: #d9faff;
+} */
+h2 {
+  font-family: 'Girassol', cursive;
+  letter-spacing: .3rem;
+  color: #0E3EDA;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px #00bbf0;
+  font-weight: bold;
 }
 
-
-
-.family a{
-  font-size: 20px;
-  /* font-size: 18px; */
+a {
+  letter-spacing: .2rem;
+  padding: .4rem 1rem;
   text-decoration: none;
   color: #ff7e67;
-  border: #926239 1.7px solid;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transition: all .2s;
+  background: #886F6F;
 }
 
-
-.family a:hover{
+a:hover {
   background: #926239;
+  /* background: #F6E7D8; */
   color: #fff;
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 100;
+  border: 1px solid red;
+}
+
+.user_profile span {
+  color: #00bbf0;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3rem;
+}
+
+.user_profile img {
+  border: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: .7rem;
+}
+
+.extras {
+  padding: .5rem 0;
+}
+
+.extras a {
+  font-size: 1.8rem;
+}
+
+.extras h2 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 412px) {
+  a {
+    font-size: 1rem;
+  }
 }

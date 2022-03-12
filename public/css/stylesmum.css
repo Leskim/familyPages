@@ -101,17 +101,18 @@ hr {
   font-size: 1.5rem;
 }
 
-.skills {
+.skills a, .skills h2 {}
+
+.skills a {
+  border-radius: 5px;
+  text-decoration: none;
+  background: #886F6F;
   transition: all 200ms ease-out;
 }
 
-.skills a {
-  text-decoration: none;
-}
-
-.skills:hover {
-  border-radius: 5px #eaf6f6;
-  opacity: .7;
+.skills a:hover h2 {
+  text-decoration: underline;
+  color: #694E4E;
 }
 
 .footer-link {
@@ -145,4 +146,8 @@ hr {
   body {
     font-size: 1.5rem;
   }
+}
+
+.resume {
+  font-size: 2.2rem;
 }
